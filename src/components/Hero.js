@@ -4,7 +4,7 @@ const Hero =()=>{
     return(
         <div className="w-full min-w-[360px] min-h-[663px] bg-[#F2F0F1] flex md:justify-center pb-72 flex-col md:flex-row  md:items-center ">
             {/* left */}
-            <div className="md:flex-1  h-full flex flex-col  justify-center gap-6 px-4 md:px-7 py-4 md:py-7 ">
+            <div className="md:flex-1  h-full flex flex-col  justify-center gap-6 px-4 md:pl-7 md:pr-0  py-4 md:py-7 ">
                 <h1 className="text-black font leading-[64px] lg:text-6xl md:text-5xl text-4xl font-extrabold">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
                 <p className="text-[#00000099]">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
 
