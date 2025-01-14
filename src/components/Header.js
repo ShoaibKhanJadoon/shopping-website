@@ -30,7 +30,7 @@ const Header = () => {
                     <div className="md:hidden">
                         <Sheet>
                             <SheetTrigger className="flex items-center justify-center" asChild>
-                                <IoMenu className="w-7 h-8 mr-2" />
+                                <IoMenu className="w-8 h-9 mr-2" />
                             </SheetTrigger>
                             <SheetContent>
                                 <SheetHeader>
@@ -75,10 +75,10 @@ const Header = () => {
                     </div>
                 </div>
                 {/* cart and profile */}
-                <div className="flex items-center justify-end gap-2 w-12 ">
-                    <IoSearch className="hover:cursor-pointer md:hidden w-5 h-5 " />
-                    <FiShoppingCart className="hover:cursor-pointer w-5 h-5 md:w-3 md:h-3" />
-                    <CgProfile className="hover:cursor-pointer w-5 h-5 md:w-3 md:h-3" />
+                <div className="flex items-center justify-end gap-2 md:w-12 w-20">
+                    <IoSearch className="hover:cursor-pointer md:hidden w-6 h-6 " />
+                    <FiShoppingCart className="hover:cursor-pointer w-6 h-6 md:w-5 md:h-5" />
+                    <CgProfile className="hover:cursor-pointer w-6 h-6 md:w-5 md:h-5" />
                 </div>
             </div>
         </header>
